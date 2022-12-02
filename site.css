@@ -1,0 +1,87 @@
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(13, 41, 12, 1);
+}
+
+main {
+    padding: 5%;
+    color: #f4ececf0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    
+}
+h1,
+h3 {
+    color: rgb(248, 244, 244);
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header img{
+border: 1px solid #202020;
+border-radius: 500px;
+width: 100px;
+height: 100px;
+max-width: 150px;
+max-height: 150px;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.959);
+
+}
+.information{
+    margin: 0px;
+    border: #eae7e7;
+    padding: 20px;
+    background-color: #be80801d;
+    border-radius: 10px;
+}
+
+.information .date{
+    background-color:rgba(154, 58, 13, 0.831);
+}
+footer{
+background-color: rgb(62, 14, 14);
+position: fixed;
+bottom: 0;
+width: 100%;
+min-height: 50px;
+text-align: center;
+color:#dd2424 ;
+}
+
+#menu li {
+    display: inline;
+    padding: 4px;
+    background-color: 	#020000;
+    
+}
+#menu li a{
+    color:white !important;
+    text-decoration: none;
+}
+#menu li.active{
+    background-color: rgba(109, 108, 108, 0.491);
+}
+
+ header #bigComercialName, header #logo{
+   display: flex;justify-content: center;
+   vertical-align: middle;
+   align-items: center;
+} 
+h6, p, h3{
+text-align: center;
+}
+iframe{
+
+    border-radius: 10px;
+}
+#about{
+    background-color: rgba(60, 169, 91, 0.315);
+    margin: 4px;
+    padding: 4px;
+    border-radius: 10px;
+}
