@@ -1,16 +1,14 @@
-body {
-    
+body {  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgba(13, 41, 12, 1);
 }
-
 main {
-    padding: 5%;
+    padding:20px;
     color: #f4ececf0;
     margin-left: auto;
     margin-right: auto;
-    max-width: 300px;
-    
+    width: 300px;
+    background-color: rgba(223, 234, 234, 0.176);
 }
 h1,
 h3 {
@@ -30,33 +28,30 @@ max-height: 150px;
 }
 header{
     background-color: rgba(0, 0, 0, 0.959);
-
 }
 .information{
-    margin: 0px;
+    margin: 10px;
     border: #eae7e7;
     padding: 20px;
     background-color: #be80801d;
     border-radius: 10px;
 }
-
 .information .date{
     background-color:rgba(154, 58, 13, 0.831);
+    text-align: center;
 }
 footer{
 background-color: rgb(62, 14, 14);
-position: fixed;
-bottom: 0;
+position: absolute;
 width: 100%;
-min-height: 50px;
+height: 50px;
 text-align: center;
-color:#dd2424 ;
+color:#dd2424 ; 
 }
-
 #menu li {
     display: inline;
     padding: 4px;
-    background-color: 	#020000;
+    background-color: 	#8e8989;
     
 }
 #menu li a{
@@ -66,17 +61,15 @@ color:#dd2424 ;
 #menu li.active{
     background-color: rgba(109, 108, 108, 0.491);
 }
-
  header #bigComercialName, header #logo{
    display: flex;justify-content: center;
    vertical-align: middle;
    align-items: center;
 } 
-h6, p, h3{
+h6,p , h3{
 text-align: center;
 }
-iframe{
-    
+iframe{ 
     border-radius: 10px;
 }
 #about{

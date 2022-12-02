@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Movie</title>
-        <meta charset="UTF-8">
-        <meta name="movieauthor" content="Andam Int">
-        <meta name="keywords" content="Movie, Actor, Comercial">
-        <link rel="stylesheet" href="site.css">
-    </head>
-    <body>
-    <div class="container"> 
-    <header>
-        <img id="logo" src="/img/movie.gif" alt="no image found of moive">
-        <h1 id="bigComercialName">New scary movie</h1>
-        
-    </header>
-    <main>
-        <div class="information">
-            <h3>Home:</h3>
-            <p class="date">Premiere date: next month </p>
-            <p><strong>Directed by:</strong> Short Man </p>
-            <p><strong>Cast:</strong> Fat Guy, Door Bell, Indie Rock, Book Library</p>
-           <div id="about">
-               <p><strong>About:</strong> This very short and scary movie is about drinking water instead of whiskey. The more water everyone drinks, the longer the movie becomes.</p>
+
+<head>
+    <title>Movie</title>
+    <meta charset="UTF-8">
+    <meta name="movieauthor" content="Andam Int">
+    <meta name="keywords" content="Movie, Actor, Comercial">
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img id="logo" src="/img/movie.gif" alt="no image found of moive">
+            <h1 id="bigComercialName">New scary movie</h1>
+
+        </header>
+        <main>
+            <div class="information">
+                <h3>Home:</h3>
+                <div class="date">
+                    <p>Premiere date:</p>
+                    <script>
+                    date = new Date().toLocaleDateString();
+                    document.write(date);
+                    </script>
+                    </div>
+                <p><strong>Directed by:</strong> Short Man </p>
+                <p><strong>Cast:</strong> Fat Guy, Door Bell, Indie Rock, Book Library</p>
+                <div id="about">
+                    <p><strong>About:</strong> This very short and scary movie is about drinking water instead of
+                        whiskey. The more water everyone drinks, the longer the movie becomes.</p>
+                </div>
             </div>
-        </div>
-        <iframe src="https://www.youtube.com/embed/C1JET1BUTWA"
-            ></iframe>
+            <iframe src="https://www.youtube.com/embed/C1JET1BUTWA"></iframe>
 
-        <h6> Links:</h6>
-        <ul id="menu">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="story.html">Story</a></li>
-            <li><a
-                    href="https://www.google.com/maps/d/edit?hl=sv&mid=1CPjTDO7xJ3M_EGRYtWdDQJuQV3t0lzU&ll=53.87072810332509%2C25.558919078125015&z=6">Location</a>
-            </li>
-
-        </ul>
-    </main>
-    <footer>A new scary move with many &copy;Copyrights </footer>
-</div>
+            <h6> Links:</h6>
+            <ul id="menu">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="unActive"> <a href="story.html">Story</a></li>
+                <li class="unActive"><a href="https://www.google.com/maps/d/edit?hl=sv&mid=1CPjTDO7xJ3M_EGRYtWdDQJuQV3t0lzU&ll=53.87072810332509%2C25.558919078125015&z=6">Location</a>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <p> Webmaster: Jonas Lundberg, commissioned by FS </p>
+        </footer>
+        <script src="/Index.js"> 
+         </script>
+    </div>
 </body>
 
 </html>
